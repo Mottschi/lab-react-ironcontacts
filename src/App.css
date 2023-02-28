@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App>button {
+  width: 20ch;
 }
 
 .App-logo {
@@ -35,4 +43,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table img.contact-picture {
+  width: 100px;
+  border-radius: 50%;
+
+}
+
+table img.trophy {
+  width: 32px;
+}
+
+.contact {
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.superstar {
+  background-color: gold;
 }
